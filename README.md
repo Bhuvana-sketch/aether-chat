@@ -1,7 +1,7 @@
-# Aether — AI Chat (Powered by Groq — 100% FREE)
+# Aether — AI Chat 
 
 A production-ready AI chat app built with Next.js 14 and Groq.  
-**Completely free** — Groq's free tier works globally including India, no credit card needed.
+
 
 ## Stack
 
@@ -12,17 +12,10 @@ A production-ready AI chat app built with Next.js 14 and Groq.
 - **Fonts**: Syne + DM Sans + DM Mono
 - **Icons**: Lucide React
 
-## Groq Free Tier
-
-| Model | Speed | Free Limit |
-|---|---|---|
-| Llama 3.3 70B | Fast | 1,000 req/day |
-| Llama 3.1 8B | Ultra fast | 14,400 req/day |
-| Mixtral 8x7B | Fast | 14,400 req/day |
 
 ## Getting Started
 
-### 1. Get your FREE Groq API Key (30 seconds)
+### 1. Get your Groq API Key (30 seconds)
 
 1. Go to [console.groq.com](https://console.groq.com)
 2. Sign in with your Google account
