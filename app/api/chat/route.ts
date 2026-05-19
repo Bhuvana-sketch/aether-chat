@@ -11,7 +11,7 @@ const groq = new Groq({
 const MODEL_MAP: Record<string, string> = {
   'llama-3.3-70b': 'llama-3.3-70b-versatile',
   'llama-3.1-8b':  'llama-3.1-8b-instant',
-  'gemma2-9b':     'gemma2-9b-it',
+  'gpt-oss-20b':   'openai/gpt-oss-20b',
 }
 
 export async function POST(req: NextRequest) {
