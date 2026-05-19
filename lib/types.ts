@@ -19,7 +19,7 @@ export interface Conversation {
 export type ModelId =
   | 'llama-3.3-70b'
   | 'llama-3.1-8b'
-  | 'mixtral-8x7b'
+  | 'gemma2-9b'
 
 export interface Model {
   id: ModelId
@@ -38,9 +38,9 @@ export const MODELS: Model[] = [
     label: 'Llama 3.1 8B',
     description: 'Ultra fast · free',
   },
-  {
-    id: 'mixtral-8x7b',
-    label: 'Mixtral 8x7B',
+ {
+    id: 'gemma2-9b',
+    label: 'Gemma 2 9B',
     description: 'Great for code · free',
   },
 ]
