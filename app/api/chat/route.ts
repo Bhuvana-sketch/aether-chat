@@ -9,9 +9,9 @@ const groq = new Groq({
 
 // Map our UI model IDs to Groq model names
 const MODEL_MAP: Record<string, string> = {
-  'llama-3.3-70b':   'llama-3.3-70b-versatile',
-  'llama-3.1-8b':    'llama-3.1-8b-instant',
-  'mixtral-8x7b':    'mixtral-8x7b-32768',
+  'llama-3.3-70b': 'llama-3.3-70b-versatile',
+  'llama-3.1-8b':  'llama-3.1-8b-instant',
+  'gemma2-9b':     'gemma2-9b-it',
 }
 
 export async function POST(req: NextRequest) {
